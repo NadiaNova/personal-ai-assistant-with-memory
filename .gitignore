@@ -25,6 +25,9 @@ chroma_db/
 pdfFiles/
 uploads/
 
+# Streamlit
+.streamlit/secrets.toml
+
 # Logs
 *.log
 
