@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, academic project, or publication, please cite this repository."
+title: "Personal AI Assistant with Memory"
+authors:
+  - family-names: "Nadia"
+    given-names: "Afsana"
+version: "1.0.0"
+date-released: "2026-10-16"
+url: "https://github.com/NadiaNova/personal-ai-assistant-with-memory"
+license: "BSD-3-Clause"
+type: software
