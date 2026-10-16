@@ -38,7 +38,7 @@ def parse_args():
 Examples:
   # Run with Ollama (default)
   python run_app.py
-  python run_app.py --provider ollama --model qwen2.5:1.5b
+  python run_app.py --provider ollama --model qwen2.5:3b
 
   # Run with Azure OpenAI
   python run_app.py --provider azure --api-key YOUR_KEY --endpoint https://xxx.openai.azure.com/ --deployment gpt-4
@@ -62,8 +62,8 @@ Examples:
     ollama_group = parser.add_argument_group("Ollama Options")
     ollama_group.add_argument(
         "--model", "-m",
-        default="qwen2.5:1.5b",
-        help="Ollama model name (default: qwen2.5:1.5b)"
+        default="qwen2.5:3b",
+        help="Ollama model name (default: qwen2.5:3b)"
     )
     ollama_group.add_argument(
         "--ollama-url",
