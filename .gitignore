@@ -21,6 +21,7 @@ env/
 
 # Vector databases and uploaded documents
 vectorDB/
+memoryDB/
 chroma_db/
 pdfFiles/
 uploads/
@@ -51,3 +52,7 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+
+# Backup and old versions
+*.backup
+*_old.py
